@@ -1,0 +1,14 @@
+{
+  "name": "rust-snake",
+  "version": "0.1.0",
+  "files": [
+    "rust_snake_bg.wasm",
+    "rust_snake.js",
+    "rust_snake.d.ts"
+  ],
+  "module": "rust_snake.js",
+  "types": "rust_snake.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
